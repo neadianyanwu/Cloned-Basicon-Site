@@ -1,0 +1,87 @@
+.sidebar-footer {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 16px;
+    padding-bottom: 20px;
+    align-items: flex-end;
+    position: relative;
+}
+
+.sidebar-footer-content {
+    font-size: 12px;
+    margin: 0;
+    color: rgba(0, 0, 0, 0.95);
+    opacity: 0.45;
+}
+
+.menu-container {
+    background: rgba(0, 0, 0, 0.95);
+    padding: 12px;
+    border-radius: 50%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    display: flex;
+    cursor: pointer;
+    animation: rotate360 2.5s linear infinite;
+}
+
+@keyframes rotate360 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.navbar {
+    width: 300px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.95);
+    position: sticky;
+    border-radius: 8px;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.basicons-menu {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font: 16px;
+    font-weight: 300;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-left: auto;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.nav-item {
+    text-align: right;
+    margin: 6px;
+    list-style: none;
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    text-transform: capitalize;
+    gap: 20px;
+    position: relative;
+    padding: 3px 0;
+    text-decoration: none;
+    display: flex;
+}

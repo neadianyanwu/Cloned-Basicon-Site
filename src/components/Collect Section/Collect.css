@@ -1,0 +1,44 @@
+.collect-container {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    border-bottom: 1px solid #d8d8d8;
+    padding-left: 10px;
+    position: relative;
+    bottom: 20px;
+}
+
+.collect-container .collect-header h4{
+    flex-direction: column;
+    width: 33vw;
+    margin: 4px;
+    padding: 16px;
+    display: flex;
+    margin: 4px;
+    padding: 4px;
+    width: 10vw;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.collect-button {
+    display: flex;
+    gap: 16px;
+    margin: 8px;
+    padding: 6px;
+    width: 29vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.btn {
+    background: #faf9f6;
+    color: #d8d8d8;
+    border: 1px solid #d8d8d8;
+    padding: 8px 16px;
+    line-height: 10px;
+}

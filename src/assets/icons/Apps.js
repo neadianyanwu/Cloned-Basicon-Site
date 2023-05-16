@@ -1,0 +1,59 @@
+import * as React from "react";
+const SvgApps = ({ title, titleId, ...props }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    fill="none"
+    viewBox="0 0 24 24"
+    aria-labelledby={titleId}
+    {...props}
+  >
+    {title ? <title id={titleId}>{title}</title> : null}
+    <rect
+      width={9}
+      height={9}
+      x={3}
+      y={3}
+      stroke="#000"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      rx={1}
+    />
+    <rect
+      width={5}
+      height={5}
+      x={16}
+      y={16}
+      stroke="#000"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      rx={0.5}
+    />
+    <rect
+      width={5}
+      height={5}
+      x={16}
+      y={7}
+      stroke="#000"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      rx={0.5}
+    />
+    <rect
+      width={5}
+      height={5}
+      x={7}
+      y={16}
+      stroke="#000"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      rx={0.5}
+    />
+  </svg>
+);
+export default SvgApps;
