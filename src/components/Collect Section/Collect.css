@@ -7,7 +7,7 @@
     border-bottom: 1px solid #d8d8d8;
     padding-left: 10px;
     position: relative;
-    bottom: 20px;
+    /* bottom: 20px; */
 }
 
 .collect-container .collect-header h4{
